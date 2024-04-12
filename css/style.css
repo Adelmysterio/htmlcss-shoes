@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .container {
+    margin: 0 auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .red {
@@ -19,3 +28,40 @@
 .yellow {
     background-color: yellow;
 }
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: yellow;
+}
+
+main div:last-child h2 {
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+li {
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+text-decoration: none;
+font-size: 2rem;
+color: black;
+}
+
