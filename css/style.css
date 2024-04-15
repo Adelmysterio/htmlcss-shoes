@@ -36,7 +36,7 @@ h2 {
     color: yellow;
 }
 
-main div:last-child h2 {
+main article:last-child h2 {
     color: green;
 }
 
@@ -46,6 +46,7 @@ ul {
     position: absolute;
     top: 2rem;
     right: 2rem;
+    position: fixed;
 }
 
 li {
